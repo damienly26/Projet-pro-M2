@@ -1,0 +1,342 @@
+/*
+Theme Name: Flash Child
+Template: flash
+Version: 1.4.4
+*/
+
+
+/* header desktop */
+.header-bottom .search-icon{
+  display: none;
+}
+
+.header-bottom{
+  background-color: #909CC4;
+}
+
+#site-navigation ul li a{
+  color: #FFFFFF;
+}
+
+#site-navigation ul li a:hover{
+  color: #232653;
+}
+
+#site-navigation ul li.current_page_item > a{
+  color: #232653;
+}
+
+/*header mobile*/
+@media all and (max-width: 980px) {
+  #site-navigation .menu-toggle{
+    font-size: 30px !important;
+  }
+  #site-navigation .menu{
+    border: solid 1px #232653 !important;
+  }
+  #site-navigation ul li a{
+    color: #232653 !important;
+  }
+  #site-navigation ul li a:hover{
+    color: #909CC4 !important;
+  }
+  #site-navigation ul li.current_page_item > a{
+    color: #909CC4 !important;
+  }
+}
+
+/* footer desktop */
+#bottom-footer .copyright-text{
+  display: none;
+}
+
+#bottom-footer .footer-menu{
+  list-style: none;
+}
+
+#bottom-footer{
+  background-color: #909CC4;
+}
+
+#bottom-footer ul li a{
+  color: #FFFFFF;
+}
+
+#bottom-footer ul li.current_page_item > a{
+  color: #232653;
+}
+
+#bottom-footer ul li a:hover{
+  color: #232653;
+}
+
+/* footer mobile */
+
+
+/* page desktop */
+.full-width-center #primary{
+  width: 80% !important;
+}
+
+.breadcrumb-trail.breadcrumbs{
+  background-color: #FFFFFF;
+}
+
+.breadcrumb-trail.breadcrumbs .trail-title{
+  color: #232653;
+}
+
+.breadcrumb-trail.breadcrumbs .trail-items li a, .breadcrumb-trail.breadcrumbs .trail-items li span{
+  color : #909CC4;
+}
+
+#scroll-up{
+  background-color: #AC88BF;
+}
+
+.breadcrumb-trail.breadcrumbs .trail-title{ /* h1*/
+  float: none;
+  text-align: center;
+  margin-top: 2%;
+}
+
+h2{
+  color : #8479A1;
+}
+
+h3{
+  color : #909CC4;
+}
+
+.breadcrumb-trail.breadcrumbs .trail-items{ /*fil d'Ariane*/
+  float: left;
+}
+
+/* page mobile */
+@media all and (max-width: 980px) {
+  h1{
+    font-size: 1.8em !important;
+  }
+  h2{
+    font-size: 1.6em !important;
+  }
+  h3{
+    font-size: 1.3em !important;
+  }
+}
+
+/*boutons*/
+.wp-block-buttons > .wp-block-button{
+  color: #FFFFFF;
+}
+
+/* page d'accueil desktop */
+body.page-id-7 h1, body.page-id-71 h1{
+  color: #232653;
+  text-align: center;
+}
+
+body.page-id-7 h2, body.page-id-71 h2{
+  text-align: center;
+}
+
+body.page-id-7 h3, body.page-id-71 h3{
+  text-align: center;
+}
+
+body.page-id-7 .wp-block-button, body.page-id-71 .wp-block-button{
+  display: block;
+  margin: auto;
+}
+
+body.page-id-7 p, body.page-id-71 p{
+  font-size: 1.1em;
+}
+
+/* page d'accueil mobile */
+
+@media all and (max-width: 980px) {
+  body.page-id-7 .wp-block-button{
+    width: 80% !important;
+  }
+  body.page-id-7 .wp-block-button{
+    display: block !important;
+    margin: auto !important;
+  }
+}
+
+/*page A propos desktop */
+body.page-id-2 .wp-block-image:not(.is-style-rounded) img, body.page-id-182 .wp-block-image:not(.is-style-rounded) img{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+body.page-id-2 .wp-block-button, body.page-id-182 .wp-block-button{
+  display: block;
+  margin: auto;
+}
+
+body.page-id-2 h2, body.page-id-182 h2{
+  text-align: center;
+}
+
+body.page-id-2 p, body.page-id-182 p{
+  font-size: 1.1em;
+}
+
+body.page-id-2 p a, body.page-id-182 p a{
+  color: #232653;
+  text-decoration: underline;
+}
+
+.exp, .form{
+  border: solid #232653 2px;
+  padding: 10px;
+  background-color: #E5E5E5;
+}
+
+body.page-id-2 .wp-container-2.wp-block-column, body.page-id-182 .wp-container-2.wp-block-column{
+  display: flex;
+  align-items: center;
+}
+
+body.page-id-2 .wp-container-7, body.page-id-2 .wp-container-10, body.page-id-182 .wp-container-6, body.page-id-182 .wp-container-9{
+  display: flex;
+  justify-content: center;
+}
+
+body.page-id-2 .wp-container-5.wp-block-column, body.page-id-2 .wp-container-6.wp-block-column, body.page-id-2 .wp-container-8.wp-block-column, body.page-id-2 .wp-container-9.wp-block-column{
+  border: solid #232653 2px;
+  padding: 5px;
+  background-color: #E5E5E5;
+  text-align: center;
+  border-radius: 10%;
+}
+
+body.page-id-182 .wp-container-4.wp-block-column, body.page-id-182 .wp-container-5.wp-block-column, body.page-id-182 .wp-container-7.wp-block-column, body.page-id-182 .wp-container-8.wp-block-column{
+  border: solid #232653 2px;
+  padding: 5px;
+  background-color: #E5E5E5;
+  text-align: center;
+  border-radius: 10%;
+}
+
+p.int1::before{
+  content: url(icons/jeux.png);
+  position: relative;
+  top: 25px;
+  padding-right: 10px;
+}
+
+p.int2::before{
+  content: url(icons/cinema.png);
+  position: relative;
+  top: 25px;
+  padding-right: 10px;
+}
+
+p.int3::before{
+  content: url(icons/livre.png);
+  position: relative;
+  top: 25px;
+  padding-right: 10px;
+}
+
+p.int4::before{
+  content: url(icons/voyages.png);
+  position: relative;
+  top: 20px;
+  padding-right: 10px;
+}
+
+p.int5::before{
+  content: url(icons/rando.png);
+  position: relative;
+  top: 20px;
+  padding-right: 10px;
+}
+
+p.int6::before{
+  content: url(icons/piano.png);
+  position: relative;
+  top: 25px;
+  padding-right: 10px;
+}
+
+/* page A propos mobile */
+@media all and (max-width: 980px) {
+  body.page-id-2 .wp-container-2.wp-block-column, body.page-id-2 .wp-container-3.wp-block-column, body.page-id-2 .wp-container-5.wp-block-column, body.page-id-2 .wp-container-6.wp-block-column{
+    padding: 2px;
+    border-radius: 20%;
+  }
+  body.page-id-182 .wp-container-1.wp-block-column, body.page-id-182 .wp-container-2.wp-block-column, body.page-id-182 .wp-container-4.wp-block-column, body.page-id-182 .wp-container-5.wp-block-column{
+    padding: 2px;
+    border-radius: 20%;
+  }
+  .exp, .form{
+    padding: 12px;
+  }
+
+}
+
+
+/*page Réalisations desktop */
+body.page-id-11 h2, body.page-id-186 h2{
+  text-align: center;
+}
+
+body.page-id-11 p, body.page-id-186 p{
+  font-size: 1.1em;
+}
+
+body.page-id-11 p a, body.page-id-186 p a{
+  color: #232653;
+  text-decoration: underline;
+}
+
+/* page Contact desktop */
+form#wpforms-form-33, form#wpforms-form-38{
+  border: solid #232653 2px;
+  padding: 10px;
+  background-color: #E5E5E5;
+}
+
+button#wpforms-submit-33, button#wpforms-submit-38{
+  display: block;
+  margin: auto;
+  background-color: #AC88BF;
+  color: #FFFFFF;
+  border-radius: 9999px;
+  width: 120px;
+  font-size: 1.2em;
+}
+
+body.page-id-13 p, body.page-id-184 p{
+  font-size: 1.1em;
+}
+
+body.page-id-13 p a, body.page-id-184 p a{
+  color: #232653;
+  text-decoration: underline;
+}
+
+/* page Mentions légales desktop*/
+body.page-id-3 p, body.page-id-261 p{
+  font-size: 1.1em;
+}
+
+body.page-id-3 p a, body.page-id-261 p a{
+  color: #232653;
+  text-decoration: underline;
+}
+
+/*page 404*/
+section.error-404 p{
+  font-size: 1.1em;
+}
+
+section.error-404 p a{
+  color: #232653;
+  text-decoration: underline;
+}
